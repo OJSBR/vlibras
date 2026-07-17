@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-17\n"
+"PO-Revision-Date: 2026-07-17\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.block.vlibras.displayName"
+msgstr "VLibras-Block (brasilianische Gebärdensprache)"
+
+msgid "plugins.block.vlibras.description"
+msgstr "Bindet das VLibras-Widget ein (der Portugiesisch-zu-Libras-Übersetzer der brasilianischen Regierung), damit gehörlose Leserinnen und Leser die Inhalte der Zeitschrift übersetzen können."
+
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+msgid "plugins.block.vlibras.text"
+msgstr "Übersetzen Sie diesen Inhalt mit dem auf dem Bildschirm angezeigten VLibras-Avatar in die brasilianische Gebärdensprache (Libras)."
