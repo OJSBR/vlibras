@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+
+msgid "plugins.block.vlibras.displayName"
+msgstr "Bloco VLibras (Libras)"
+
+msgid "plugins.block.vlibras.description"
+msgstr "Incorpora o widget do VLibras (tradutor de Português para Libras, do governo federal brasileiro) para que os leitores surdos possam traduzir o conteúdo da revista."
+
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+msgid "plugins.block.vlibras.text"
+msgstr "Traduza este conteúdo para a Língua Brasileira de Sinais (Libras) utilizando o avatar do VLibras apresentado no ecrã."
