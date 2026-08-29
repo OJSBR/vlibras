@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: gl\n"
+
+
+msgid "plugins.block.vlibras.displayName"
+msgstr "Bloque VLibras (lingua de signos brasileira)"
+
+msgid "plugins.block.vlibras.description"
+msgstr "Incorpora o trebello VLibras (o tradutor do goberno brasileiro do portugués á lingua de signos Libras) para que a lectorado xordo poida traducir o contido da revista."
+
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+msgid "plugins.block.vlibras.text"
+msgstr "Traduce este contido á lingua de signos brasileira (Libras) co avatar de VLibras que se mostra na pantalla."

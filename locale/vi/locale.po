@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: vi\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "Khối VLibras (ngôn ngữ ký hiệu Brazil)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "Nhúng tiện ích VLibras (trình dịch của chính phủ Brazil từ tiếng Bồ Đào Nha sang ngôn ngữ ký hiệu Libras) để độc giả khiếm thính có thể dịch nội dung tạp chí."
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "Dịch nội dung này sang ngôn ngữ ký hiệu Brazil (Libras) bằng hình đại diện VLibras hiển thị trên màn hình."

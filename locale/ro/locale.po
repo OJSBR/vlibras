@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ro\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "Bloc VLibras (limbajul semnelor brazilian)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "Integrează widgetul VLibras (traducătorul guvernului brazilian din portugheză în limbajul semnelor Libras), astfel încât cititorii surzi să poată traduce conținutul revistei."
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "Traduceți acest conținut în limbajul semnelor brazilian (Libras) cu ajutorul avatarului VLibras afișat pe ecran."

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ru\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "Блок VLibras (бразильский жестовый язык)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "Встраивает виджет VLibras (переводчик правительства Бразилии с португальского на жестовый язык Libras), чтобы глухие читатели могли перевести содержимое журнала."
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "Переведите это содержимое на бразильский жестовый язык (Libras) с помощью аватара VLibras на экране."

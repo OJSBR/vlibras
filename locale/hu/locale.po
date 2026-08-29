@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hu\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "VLibras blokk (brazil jelnyelv)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "Beágyazza a VLibras widgetet (a brazil kormány portugálról Libras jelnyelvre fordító eszközét), hogy a siket olvasók lefordíthassák a folyóirat tartalmát."
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "Fordítsa le ezt a tartalmat brazil jelnyelvre (Libras) a képernyőn megjelenő VLibras avatár segítségével."

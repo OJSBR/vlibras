@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ar\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "مربّع VLibras (لغة الإشارة البرازيلية)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "يدمج أداة VLibras (مترجم الحكومة البرازيلية من البرتغالية إلى لغة الإشارة البرازيلية) ليتمكّن القرّاء الصمّ من ترجمة محتوى المجلة."
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "لغة الإشارة البرازيلية (Libras)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "ترجم هذا المحتوى إلى لغة الإشارة البرازيلية (Libras) باستخدام صورة VLibras الرمزية الظاهرة على الشاشة."

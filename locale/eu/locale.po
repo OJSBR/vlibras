@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: eu\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "VLibras blokea (Brasilgo zeinu-hizkuntza)"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "VLibras widgeta txertatzen du (Brasilgo gobernuaren portugesetik Libras zeinu-hizkuntzarako itzultzailea), gorren irakurleek aldizkariaren edukia itzuli ahal izateko."
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "Itzuli eduki hau Brasilgo zeinu-hizkuntzara (Libras) pantailan agertzen den VLibras avatarra erabiliz."

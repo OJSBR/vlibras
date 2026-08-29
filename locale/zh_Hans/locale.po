@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: zh_Hans\n"
+
+
+#, fuzzy
+msgid "plugins.block.vlibras.displayName"
+msgstr "VLibras 区块（巴西手语）"
+
+#, fuzzy
+msgid "plugins.block.vlibras.description"
+msgstr "嵌入 VLibras 小工具（巴西政府提供的葡萄牙语转巴西手语翻译器），让聋人读者可以翻译期刊内容。"
+
+#, fuzzy
+msgid "plugins.block.vlibras.title"
+msgstr "Libras（巴西手语）"
+
+#, fuzzy
+msgid "plugins.block.vlibras.text"
+msgstr "使用屏幕上的 VLibras 虚拟形象，将此内容翻译成巴西手语（Libras）。"

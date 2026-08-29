@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ca\n"
+
+
+msgid "plugins.block.vlibras.displayName"
+msgstr "Bloc VLibras (llengua de signes brasilera)"
+
+msgid "plugins.block.vlibras.description"
+msgstr "Incrusta el giny VLibras (el traductor del govern brasiler de portuguès a la llengua de signes Libras) perquè els lectors sords puguin traduir el contingut de la revista."
+
+msgid "plugins.block.vlibras.title"
+msgstr "Libras"
+
+msgid "plugins.block.vlibras.text"
+msgstr "Tradueix aquest contingut a la llengua de signes brasilera (Libras) amb l'avatar de VLibras que es mostra a la pantalla."
