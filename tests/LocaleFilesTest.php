@@ -17,7 +17,7 @@ namespace APP\plugins\blocks\vlibras\tests;
 // OJS 3.3 has no autoloader for plugin classes.
 require_once __DIR__ . '/bootstrap.php';
 
-class LocaleFilesTest extends TestCase
+class LocaleFilesTest extends \PKPTestCase
 {
     /** Locale codes shipped by the plugin, as OJS 3.3 names them. */
     public const LOCALES = [

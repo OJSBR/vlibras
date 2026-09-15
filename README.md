@@ -1,10 +1,10 @@
 # VLibras Block (Brazilian Sign Language) — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.3%20%7C%203.4%20%7C%203.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.1.1-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/vlibras/releases/download/1.0.1.0/vlibras-1.0.1.0.tar.gz) · [OJS 3.4](https://github.com/OJSBR/vlibras/releases/download/1.0.1.0-ojs3.4/vlibras-1.0.1.0-ojs3.4.tar.gz) · [OJS 3.3](https://github.com/OJSBR/vlibras/releases/download/1.0.1.0-ojs3.3/vlibras-1.0.1.0-ojs3.3.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/vlibras/releases/download/1.0.1.1/vlibras-1.0.1.1.tar.gz) · [OJS 3.4](https://github.com/OJSBR/vlibras/releases/download/1.0.1.1-ojs3.4/vlibras-1.0.1.1-ojs3.4.tar.gz) · [OJS 3.3](https://github.com/OJSBR/vlibras/releases/download/1.0.1.1-ojs3.3/vlibras-1.0.1.1-ojs3.3.tar.gz) — or browse all [Releases](../../releases).
 
 A **block plugin** for **Open Journal Systems (OJS)** that embeds the official
 **[VLibras](https://www.gov.br/governodigital/pt-br/vlibras) widget** — the Brazilian
@@ -19,9 +19,9 @@ patching.
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
-| OJS 3.4.x   | [`stable-3_4_0`](../../tree/stable-3_4_0) | 1.0.1.0-ojs3.4 |
-| OJS 3.3.x   | [`stable-3_3_0`](../../tree/stable-3_3_0) | 1.0.1.0-ojs3.3 |
+| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.1 |
+| OJS 3.4.x   | [`stable-3_4_0`](../../tree/stable-3_4_0) | 1.0.1.1-ojs3.4 |
+| OJS 3.3.x   | [`stable-3_3_0`](../../tree/stable-3_3_0) | 1.0.1.1-ojs3.3 |
 
 ## The problem
 
@@ -68,20 +68,26 @@ avatar, but adding it to a journal means editing the theme's templates.
 
 ## Tests
 
-- **PHP suite** (`tests/`, 18 tests): the plugin class against the installed PKP, the loader
-  queued for reader pages only, a template without scripts and with escaped text, the loader
-  talking only to the official widget, and the translations. Run either way from the OJS root:
+- **PHPUnit** (`tests/*Test.php`, on `PKP\tests\PKPTestCase`): the plugin class against the
+  installed PKP, the plugin found by PKP's plugin registry, the loader queued for reader pages
+  only, a template without scripts and with escaped text, the loader talking only to the official
+  widget, and the translations. From the OJS root:
 
   ```bash
-  php plugins/blocks/vlibras/tests/run.php
   lib/pkp/lib/vendor/bin/phpunit --configuration lib/pkp/tests/phpunit.xml --no-coverage "$PWD/plugins/blocks/vlibras/tests"
   ```
 
   (On OJS 3.3 the PHPUnit configuration is `lib/pkp/tests/phpunit-env1.xml`.)
 
-- **Cypress** (`cypress/tests/functional/VLibrasBlock.cy.js`): the block shows once, the loader
-  is printed once and outside the block, the VLibras button appears and pressing it opens the
-  translator. Verified on OJS 3.5.0.3, 3.4.0.10 and 3.3.0.22.
+- **Cypress** (`cypress/tests/functional/VLibrasBlock.cy.js`, run by
+  [pkp-github-actions](https://github.com/pkp/pkp-github-actions) on every push to the 3.5 and
+  3.4 branches): enables the plugin and places the block in the sidebar, then checks as a reader
+  that the block shows once, the loader is printed once and outside the block, the VLibras button
+  appears and pressing it opens the translator (it fails when the loader is not queued). The
+  sidebar is put back after the run.
+- Verified on OJS 3.5.0.3, 3.4.0.10 and 3.3.0.22.
+
+Tests are kept in the repository and are not part of the release package.
 
 ## Credits & authorship
 
@@ -90,6 +96,12 @@ avatar, but adding it to a journal means editing the theme's templates.
   / LAViD-UFPB) and distributed by them; this plugin only **embeds** their public widget.
 - This **OJS integration plugin** is developed and maintained by
   [OJSBR](https://ojsbr.com) and distributed under the **GNU GPL v3**.
+
+## AI use
+
+Generative AI (Claude, by Anthropic) was used to write and run tests, improve the code and bring
+it in line with PKP standards. Every change is reviewed and tested by OJSBR, which is responsible
+for the published releases.
 
 ## Contributing
 
@@ -117,9 +129,9 @@ que **leitores surdos** possam traduzir o conteúdo da revista. Sem alterar o n�
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.1.0 |
-| OJS 3.4.x     | `stable-3_4_0` | 1.0.1.0-ojs3.4 |
-| OJS 3.3.x     | `stable-3_3_0` | 1.0.1.0-ojs3.3 |
+| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.1.1 |
+| OJS 3.4.x     | `stable-3_4_0` | 1.0.1.1-ojs3.4 |
+| OJS 3.3.x     | `stable-3_3_0` | 1.0.1.1-ojs3.3 |
 
 ### O problema
 
@@ -166,11 +178,17 @@ Barra lateral**.
 
 ### Testes
 
-Suíte PHP em `tests/` (18 testes, pelo `tests/run.php` ou pelo PHPUnit do PKP): classe do plugin
-contra o PKP instalado, carregador enfileirado só nas páginas do leitor, template sem script e com
-texto escapado, carregador falando só com o widget oficial, e as traduções. Spec Cypress em
-`cypress/tests/functional/`: o bloco aparece uma vez, o carregador sai uma vez e fora do bloco, o
-botão do VLibras aparece e abre o tradutor. Verificado no OJS 3.5.0.3, 3.4.0.10 e 3.3.0.22.
+PHPUnit em `tests/` (sobre `PKP\tests\PKPTestCase`) e Cypress em `cypress/tests/functional/`
+(rodado pelo [pkp-github-actions](https://github.com/pkp/pkp-github-actions) a cada push nas
+branches 3.5 e 3.4), com os comandos da seção em inglês (no OJS 3.3 com `lib/pkp/tests/phpunit-env1.xml`). A suíte cobre
+a classe contra o PKP instalado, o plugin encontrado pelo registro de plugins, o carregador
+enfileirado só nas páginas do leitor, o template sem script e com texto escapado, o carregador
+falando só com o widget oficial e as traduções. O Cypress liga o plugin, põe o bloco na barra
+lateral e confere, como leitor, que o bloco aparece uma vez, o carregador sai uma vez e fora do
+bloco, o botão do VLibras aparece e abre o tradutor (falha sem o carregador); a barra lateral volta
+ao que era no fim. Verificado no OJS 3.5.0.3, 3.4.0.10 e 3.3.0.22.
+
+Os testes ficam no repositório e não fazem parte do pacote da release.
 
 ### Créditos e autoria
 
@@ -179,6 +197,12 @@ botão do VLibras aparece e abre o tradutor. Verificado no OJS 3.5.0.3, 3.4.0.10
   / LAViD-UFPB) e distribuído por ele; este plugin apenas **incorpora** o widget público.
 - Este **plugin de integração com o OJS** é desenvolvido e mantido pela
   [OJSBR](https://ojsbr.com) e distribuído sob a **GNU GPL v3**.
+
+### Uso de IA
+
+Foi usada IA generativa (Claude, da Anthropic) para escrever e rodar testes, melhorar o código e
+alinhá-lo aos padrões da PKP. Toda mudança é revisada e testada pela OJSBR, que responde pelas
+releases publicadas.
 
 ### Licença
 

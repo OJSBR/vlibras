@@ -8,12 +8,9 @@
  *
  * Bootstrap for the test suite.
  *
- * Under PKP's PHPUnit configuration the application is already loaded. When the
- * suite runs standalone (`php tests/run.php`) from a plugin installed in
- * plugins/blocks/vlibras, the OJS 3.3 installation around it is bootstrapped so the
- * plugin classes are compiled against the real PKP classes they extend: a
- * signature that does not match this PKP version is a fatal error, and that is
- * exactly what the suite must catch before a release does.
+ * OJS 3.3 has no autoloader for plugin classes: the plugin classes and PKP's
+ * test base class are loaded here, so they are compiled against the real PKP
+ * classes of the installation.
  */
 
 if (!class_exists('PKPApplication')) {
@@ -31,5 +28,5 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 import('lib.pkp.classes.plugins.BlockPlugin');
 import('lib.pkp.classes.form.Form');
 require_once dirname(__DIR__) . '/VLibrasBlockPlugin.inc.php';
-require_once __DIR__ . '/TestCase.php';
+require_once dirname(__DIR__, 4) . '/lib/pkp/tests/PKPTestCase.inc.php';
 require_once __DIR__ . '/PoFile.php';

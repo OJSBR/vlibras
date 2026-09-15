@@ -18,7 +18,7 @@ require_once __DIR__ . '/bootstrap.php';
 
 use VLibrasBlockPlugin;
 
-class VLibrasBlockTest extends TestCase
+class VLibrasBlockTest extends \PKPTestCase
 {
     public function testTheLoaderIsQueuedForReaderPagesOnly(): void
     {
