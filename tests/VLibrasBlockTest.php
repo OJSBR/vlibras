@@ -14,8 +14,11 @@
 namespace APP\plugins\blocks\vlibras\tests;
 
 use APP\plugins\blocks\vlibras\VLibrasBlockPlugin;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PKP\tests\PKPTestCase;
 
-class VLibrasBlockTest extends TestCase
+#[CoversClass(VLibrasBlockPlugin::class)]
+class VLibrasBlockTest extends PKPTestCase
 {
     public function testTheLoaderIsQueuedForReaderPagesOnly(): void
     {
