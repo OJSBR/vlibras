@@ -5,14 +5,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: OJSBR\n"
 "Language-Team: OJSBR\n"
-"Language: fr_FR\n"
+"Language: fr_CA\n"
 
 
 msgid "plugins.block.vlibras.displayName"
 msgstr "Bloc VLibras (langue des signes brésilienne)"
 
 msgid "plugins.block.vlibras.description"
-msgstr "Intègre le widget VLibras (le traducteur portugais vers Libras du gouvernement brésilien) afin que les lecteurs sourds puissent traduire le contenu de la revue."
+msgstr "Intègre le widget VLibras (le traducteur du gouvernement brésilien du portugais vers la langue des signes Libras) afin que les lecteurs sourds puissent traduire le contenu de la revue."
 
 msgid "plugins.block.vlibras.title"
 msgstr "Libras"
