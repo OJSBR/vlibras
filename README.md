@@ -77,8 +77,7 @@ avatar, but adding it to a journal means editing the theme's templates.
   lib/pkp/lib/vendor/bin/phpunit --configuration lib/pkp/tests/phpunit.xml --no-coverage "$PWD/plugins/blocks/vlibras/tests"
   ```
 
-  On OJS 3.3 use `php plugins/blocks/vlibras/tests/run.php` (or the PHPUnit configuration
-  `lib/pkp/tests/phpunit-env1.xml`).
+  (On OJS 3.3 the PHPUnit configuration is `lib/pkp/tests/phpunit-env1.xml`.)
 
 - **Cypress** (`cypress/tests/functional/VLibrasBlock.cy.js`, run by
   [pkp-github-actions](https://github.com/pkp/pkp-github-actions) on every push to the 3.5 and
@@ -181,7 +180,7 @@ Barra lateral**.
 
 PHPUnit em `tests/` (sobre `PKP\tests\PKPTestCase`) e Cypress em `cypress/tests/functional/`
 (rodado pelo [pkp-github-actions](https://github.com/pkp/pkp-github-actions) a cada push nas
-branches 3.5 e 3.4), com os comandos da seção em inglês; no OJS 3.3, `tests/run.php`. A suíte cobre
+branches 3.5 e 3.4), com os comandos da seção em inglês (no OJS 3.3 com `lib/pkp/tests/phpunit-env1.xml`). A suíte cobre
 a classe contra o PKP instalado, o plugin encontrado pelo registro de plugins, o carregador
 enfileirado só nas páginas do leitor, o template sem script e com texto escapado, o carregador
 falando só com o widget oficial e as traduções. O Cypress liga o plugin, põe o bloco na barra
