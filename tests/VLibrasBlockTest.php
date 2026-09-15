@@ -14,8 +14,9 @@
 namespace APP\plugins\blocks\vlibras\tests;
 
 use APP\plugins\blocks\vlibras\VLibrasBlockPlugin;
+use PKP\tests\PKPTestCase;
 
-class VLibrasBlockTest extends TestCase
+class VLibrasBlockTest extends PKPTestCase
 {
     public function testTheLoaderIsQueuedForReaderPagesOnly(): void
     {
